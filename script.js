@@ -18,7 +18,7 @@ console.log("Using a for loop:");
     
   }
 
-//   b.
+// //   b.
 console.log("Using a for...in loop:");
 for (const key in jsonData) {
   const value = jsonData[key];
@@ -33,10 +33,43 @@ for (const key of keys) {
   console.log(key + ": " + value);
 }
 
-// d.
+// // d.
   
   console.log("Using forEach loop:");
   Object.entries(jsonData).forEach(([key, value]) => {
     console.log(key + ": " + value);
   });
 
+
+// 2. Create your own resume data in JSON format
+ 
+var obj= 
+{
+  "name": "Kamali Prakash",
+  "email": "Kamaliprakash0307@email.com",
+  "phone": "+1234567890",
+  "location": "Villupuram"
+}
+var arr = [
+    {
+      "name": "Kamali Prakash",
+  "email": "Kamaliprakash0307@email.com",
+  "phone": "+1234567890",
+  "location": "Villupuram",
+    "education": "BTech in industrial Biotechnology"
+    },
+    {
+      "passed out year": "2021",
+    "curently" : "learing Full stack development",
+    "skills": "Team Management,Excellent listener,Poised under pressure,Leadership,Communication"
+    }
+    ]
+    for(var i=0;i<arr.lenght;i++){
+
+    }
+    
+      console.log(arr[0],arr[1])
+    
+
+    
+    
